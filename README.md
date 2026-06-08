@@ -8,6 +8,22 @@ Python-based automation tools for ArcGIS Pro to perform large-scale raster proce
 
 This repository contains a collection of ArcPy automation scripts designed to reduce manual effort in geospatial workflows. The scripts support batch processing of raster datasets, making them suitable for agricultural monitoring, land use analysis, and district-level GIS projects.
 
+Workflow Diagram 
+Input Raster Folder
+         │
+         ▼
+Batch Processing Script
+         │
+ ┌───────┼────────┐
+ ▼       ▼        ▼
+Clip  Reproject Resample
+         │
+         ▼
+Zonal Statistics
+         │
+         ▼
+Output Tables & Maps
+
 ## Key Features
 
 * Batch raster clipping
